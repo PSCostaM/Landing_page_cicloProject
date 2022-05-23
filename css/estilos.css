@@ -48,7 +48,7 @@ body{
 }
 /*textos*/
 .hero{
-	background-image: linear-gradient(-225deg, rgb(223,255,205,0.699) 0%, rgb(144,249,196,0.492) 48%, rgb(57,243,187,0.692) 100%), url("../img/header.jpg");
+	background-image: url("../img/header.jpg");
 	width: 100%;
     height: 650px;
     background-repeat: no-repeat;
@@ -60,13 +60,14 @@ body{
 }
 .logo{
 	text-indent:-999999px;
-	background: url("../img/logo.png");
-	width: 160px;
-	heigh: 160px;
+    background-image: url("../img/logo.png");
+    width:105px;height:105px;
+    object-fit:cover;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
 }
 .textos-hero{
     height: 500px;
-    color: #000000;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,8 +89,8 @@ body{
     text-decoration: none;
     padding: 12px 15px;
 	font-size: 25px;
-    background: #fac13c;
-    border-radius: 8px;
+    background: #fe6161;
+    border-radius: 15px;
     color: #fff	;
 }
 
