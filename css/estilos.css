@@ -13,7 +13,7 @@ body{
 }
 /*menu*/
 .menu  {
-    background-color: #81cb80;
+    background-color: #fe6161;
     display: flex;
     justify-content: space-evenly;
 	width: 100%;
@@ -31,7 +31,7 @@ body{
 }
 .menu a:hover{
     font-size: 20px;
-    background-color: #679e66;
+    background-color: #c65555;
 
 }
 .checkbtn{
@@ -64,6 +64,7 @@ body{
     width:105px;height:105px;
     object-fit:cover;
     box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    margin-top: 100px;
 }
 .textos-hero{
     height: 500px;
@@ -76,22 +77,28 @@ body{
 }
 
 .textos-hero h1{
-    font-size: 60px;
+    color: #ffe600;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+    font-size: 80px;
+    /* margin-top: 100px; */
 }
 
 .textos-hero p{
     font-size: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    /* text shadow 10px in y */
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.7);
 }
 /*boton APP*/
 .textos-hero a{
     display: inline-block;
     text-decoration: none;
-    padding: 12px 15px;
-	font-size: 25px;
+    padding: 20px 54px;
+    font-size: 20px;
     background: #fe6161;
-    border-radius: 15px;
-    color: #fff	;
+    border-radius: 45px;
+    color: #fff;
 }
 
 .svg-hero{
